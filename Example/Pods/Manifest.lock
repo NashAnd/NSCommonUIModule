@@ -1,0 +1,16 @@
+PODS:
+  - NSCommonUIModule (0.1.0)
+
+DEPENDENCIES:
+  - NSCommonUIModule (from `../`)
+
+EXTERNAL SOURCES:
+  NSCommonUIModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSCommonUIModule: 7f098ab661b2f4f5609c7f707be202b7badceba5
+
+PODFILE CHECKSUM: 3bc22d4d32344fe37e92f2660426dd84b726300b
+
+COCOAPODS: 1.8.4

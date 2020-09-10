@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1030CAFA81900650E2217E94 /* Pods_NSCommonUIModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSCommonUIModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22553D090DD47892D3EB6FEA /* Pods-NSCommonUIModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSCommonUIModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-NSCommonUIModule_Tests/Pods-NSCommonUIModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26235A5B0401F8EA036FC1BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		26235A5B0401F8EA036FC1BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2E667D8AB08950FD036897D3 /* Pods-NSCommonUIModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSCommonUIModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-NSCommonUIModule_Example/Pods-NSCommonUIModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NSCommonUIModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSCommonUIModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DFC02E8A6E15FDB815CBE1C /* Pods-NSCommonUIModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSCommonUIModule_Example.release.xcconfig"; path = "Target Support Files/Pods-NSCommonUIModule_Example/Pods-NSCommonUIModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFD9121375B34498BF4B3ACA /* NSCommonUIModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NSCommonUIModule.podspec; path = ../NSCommonUIModule.podspec; sourceTree = "<group>"; };
-		B85D4471BDFC052FB91609BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AFD9121375B34498BF4B3ACA /* NSCommonUIModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NSCommonUIModule.podspec; path = ../NSCommonUIModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B85D4471BDFC052FB91609BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D2B144BDB4C0A54CA2E7757A /* Pods-NSCommonUIModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSCommonUIModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NSCommonUIModule_Tests/Pods-NSCommonUIModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F829E78E33668AB1D94C596B /* Pods_NSCommonUIModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSCommonUIModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				D2B144BDB4C0A54CA2E7757A /* Pods-NSCommonUIModule_Tests.debug.xcconfig */,
 				22553D090DD47892D3EB6FEA /* Pods-NSCommonUIModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,22 @@
+{
+  "name": "NSCommonUIModule",
+  "version": "0.1.0",
+  "summary": "A short description of NSCommonUIModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1252419379@qq.com/NSCommonUIModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1252419379@qq.com": "niesong01@cgpartners.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/1252419379@qq.com/NSCommonUIModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSCommonUIModule/Classes/**/*"
+}
